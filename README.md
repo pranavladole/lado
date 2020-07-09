@@ -1,38 +1,49 @@
-## <u>Welcome to Lado Pages</u>
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Main Page</title>
+	<link rel="stylesheet" href="css.css">
+	<script type="text/javascript" src="script.js"></script>
+</head>
+<body>
 
-<h1> this is h1</h1>
-<h2> this is h1</h2>
-<h1> this is h1</h1>
-<h1> this is h1</h1>
+	<div class="container">
+		<header class="header">
+			<a href="main.html" class="title">Lado Website</a>
+		</header>
+			<nav class="menu">
+				<a href="main.html">Home</a>  &nbsp; &nbsp; &nbsp; &nbsp;
+				<a href="about.html">About Us</a>&nbsp; &nbsp; &nbsp;
+				<a href="Contact.html">Contact</a>&nbsp; &nbsp; &nbsp;
+			</nav>
+	</div>
+		<aside class="container">
+			<h1>Side Bar</h1>
+		</aside>
+	
+	
 
-### Markdown
+		<article class="container">
+			<p>
+				HTML and CSS for Beginners course will give your all the knowledge you need to master HTML and CSS easily and quickly.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+			</p>
 
-```markdown
-Syntax highlighted code block
+				<p>
+				HTML and CSS for Beginners course will give your all the knowledge you need to master HTML and CSS easily and quickly.
 
-# Header 1
-## Header 2
-### Header 3
+			</p>
 
-- Bulleted
-- List
+				<p>
+				HTML and CSS for Beginners course will give your all the knowledge you need to master HTML and CSS easily and quickly.
 
-1. Numbered
-2. List
+			</p>
 
-**Bold** and _Italic_ and `Code` text
+		</article>
 
-[Link](url) and ![Image](src)
-```
+<footer class="container">
+	&copy; 2020  my footer &nbsp; &nbsp; &nbsp; &nbsp; <a href="http://www.google.com" target="_blank">Google</a>
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/pranavladole/lado/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+</footer>
+</body>
+</html>
