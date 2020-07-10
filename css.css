@@ -1,145 +1,82 @@
 
 
-head
+.headers
 {
-	background-color: red; 
+	border:5px solid black;
+	border-width:5px;
+	border-radius: 1px; 
+	color: white;
+	background-color: rgb(220,20,60);
+	font: verdanda;
 }
 
-body
+.signin
 {
-	background-color: #f4f4f4;
-	margin:0;
-}
-
-.container
-{
-	width:700px;
-	margin:0 auto;
-	background: #FFF;
-}
-
-.header
-{
-	padding: 45px 0 20px 40px;
-	border: 2px  black ;
-	box-shadow: 2px 2px 2px 2px green;
-}
-
-.menu
-{
-	background: #3b7878;
-	padding: 8px 0 0px 40px;
+	border:5px solid black;
+	border-width:5px;
+	border-radius: 1px; 
+	color: white;
+	background-color: rgb(220,20,60);
+	font: verdanda;
 }
 
 
-.menu a
+
+.logo
 {
-	color:#c5d6db;
-	text-decoration: none;
-	font-size: 14px;
-	font-family: "arial";
+	border: 1px solid black;
 }
 
-.menu a:hover
+p
 {
-	color:#8A9898;
-}
-
-
-h1
-{
-	margin: 0px;
-	color:#869843;
-	font-size: 24px;
-
+	color:pink;
 }
 
 
-h2
+#tr2
 {
-	color: #3b7878;
-	font-size: 10px;
-	margin: 20px 0 0 10px;
-}
-
-.main
-{
-	margin: 0 0 0 100px;
-	padding: 35px 40px 30px 0;
-	color:#444444;
-	font-family: "gerorgia"
-	font-size:30px;
-	text-emphasis:justify;
-}
-
-footer
-{
-	padding: 6px 40px 6px 40px;
-	box-shadow: 2px 2px 2px 2px green;
-	font-family: "Lucid sans unicode"
-	font-size:11px;
+	color: red;
 	text-align: center;
-	text-decoration: right;
-}
-
-.footer a
-{
-	text-decoration: none;
-	color:#f6f6f6;
-}
-
-.title
-{
-	text-decoration: none;
-	font-size: 24px;
-	color:#444444;
-}
-
-.main
-{
-	width:500px;
-	border: 2px solid black;
-	padding: 10px 10px 10px 10px;
-	margin: 0 auto;
-
 
 }
 
 
-.page-heading
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  color: white;
+  background-color: black;
+  text-align: center;
+  border-width: 30px;
+
+}
+
+
+
+.table1
 {
+	 border: 2px solid green;
+  border-collapse: collapse;
+  
+
+
+}
+
+
+
+.footers
+{
+	color:white;
+	background:black;
+	border-width: 5px;
+	border-radius: 2px;
+
+}
+
+div.contact1
+{
+	color: black;
 	text-align: center;
-	margin: 20px ;
-}
-
-
- #input
-{
-	width: 100%;
-	border-radius: 5px;
-	height: 350px;
-	background: #d6d6d6;
-
+	border: solid ;
 
 }
-
-
-#message
-{
-	width: 100%;
-	border-radius: 5px;
-	height: 150px;
-	background: #d6d6d6;
-
-
-
-}
-
- #submit
-{
-	height: 30px;
-	background: rgb(59,118,135);
-	
-}
-
- 
